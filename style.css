@@ -26,23 +26,40 @@ body {
     padding-bottom: 30px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 .header__list-item {
     color: rgba(237, 237, 237, 0.817);
     position: relative;
-    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-right: 5%;
     white-space: nowrap;
+    transition: all 0.5s ease 0s;
 }
-
-
-
+.header__list-item a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+.header__list-item a:hover {
+    color: rgba(139, 139, 139, 0.817);
+    text-decoration: underline;
+}
 .header__list-item img {
     height: 32px;
     width: 32px;
     padding-bottom: 5px;
 }
+.header__list-item:hover {
+    color: rgba(139, 139, 139, 0.817);
+    text-decoration: underline;
+}
+
+
 @media (min-width: 700px) {
     .header__list-item:not(:last-child):after {
         position: absolute;
