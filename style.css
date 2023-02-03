@@ -94,7 +94,7 @@ li {
 /* ======================= */
 .section {
     display: flex;
-
+    background-color: rgb(202, 186, 186);
 }
 
 .side-section {
@@ -214,4 +214,27 @@ li {
     .menu__description {
         font-size: 16px;
     }
+}
+
+
+.menu__works {
+    margin-top: 15px;
+}
+.menu__work {
+    padding-bottom: 10px;
+}
+.menu__work-title {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.menu__work-tech {
+    padding-bottom: 3px;
+    font-size: 20px;
+}
+.menu__work-desc {
+    font-size: 20px;
+    padding-bottom: 3px;
+    color: black;
+    text-decoration: none;
+    display: block;
 }
